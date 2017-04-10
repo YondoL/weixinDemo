@@ -1,0 +1,91 @@
+@charset "utf-8";
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*点击元素时的高亮*/
+  -webkit-tap-highlight: rgba(0, 0, 0, 0);
+  -webkit-text-size-adjust: none; /*禁用Webkit内核浏览器文字大小调整功能*/
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -text-size-adjust: none;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+img {
+    border: none;
+    vertical-align: top;
+}
+a,a:link,a:visited,a:active {
+    text-decoration: none;
+}
+body,input { 
+    font-family: "Microsoft Yahei", "微软雅黑", Arial, sans-serif;
+}
+input,select,textarea {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+input {
+    -webkit-appearance: none; /*去除ios输入框和按钮自带样式*/
+    border-radius: 0;
+}
+textarea {
+    resize: none; 
+}
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+	*zoom:1;
+}
+dl,dd{margin:0;}
+
+.fl{float: left;}
+.fr{float: right}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
