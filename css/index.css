@@ -5,8 +5,6 @@ body,html{height: 100%;width: 100%;position: relative;overflow: hidden}
 	margin:0 auto;
 }
 .logo{height: 1.65rem;width: 1.65rem;background:url(../images/logo.png) center center no-repeat;background-size:100% 100%;position: absolute;top:4.3rem;left:50%;margin-left:-.85rem;opacity:0;animation:1s .45s;-webkit-animation: 1s .45s;animation-duration: 1s .45s;-webkit-animation-fill-mode: both;animation-fill-mode: both;border-radius: 20px;-webkit-border-radius: 20px;}
-/*.title{position: absolute;top:2.4rem;left:50%;height: .53rem;width: 3.3rem;margin-left:-1.65rem;background:url(../images/title.png) center center no-repeat;background-size:100% 100%;animation:1s 1s;-webkit-animation: 1s 1s;animation-duration: 1s 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity: 0}*/
-/*.title{position: absolute;top:2.4rem;left:50%;height: .53rem;width: 100%;margin-left:-1.65rem;animation:1s 1s;-webkit-animation: 1s 1s;animation-duration: 1s 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity: 0;font-size: .27rem;color:#D49C73;}*/
 .title{position: absolute;top:6.3rem;height: .53rem;width: 100%;animation:1s 1s;-webkit-animation: 1s 1s;animation-duration: 1s 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity: 0;font-size: .37rem;font-weight:bold;color:#D49C73;width: 100%;text-align:center;}
 .bottom{height: 2.2rem;width: 100%;background-color:rgba(000,000,000,.3);position: absolute;bottom:0;left:0;text-align: center;padding-top:.27rem;box-sizing:border-box;-webkit-box-sizing:border-box;font-size:0;animation: 1s 1.8s;-webkit-animation:1s 1.8s;-webkit-animation-fill-mode: both;animation-fill-mode: both;}
 h3{font-size:.42rem;line-height:.56rem;color:#FFF;animation: 1s 2.4s;-webkit-animation:1s 2.4s;animation-duration: 1s 2.4s;-webkit-animation-fill-mode: both;animation-fill-mode: both; }
@@ -28,23 +26,12 @@ img{height: 2rem;width: 2rem;animation:1s .5s;-webkit-animation: 1s .5s;animatio
 	width: 1.65rem;
 	margin-top: 0.2rem;
 }
-/*#cab{
-	animation:1s .5s;-webkit-animation: 1s .5s;animation-duration: 1s .5s;-webkit-animation-fill-mode: both;animation-fill-mode: both;
-	display: inline-block;
-	width: 1.55rem;
-	height: 1.55rem;
-	color: white;
-	font-weight: bold;
-	font-size: 1.3rem;
-	margin-top: 0.2rem;
-	margin-left: 6px;
-	line-height: 1.5rem;
-	border: 3px solid #39cce9;
-	opacity: 1;
-}*/
 img:last-of-type{
 	width: 1.65rem;
 	height: 1.65rem;
 	margin-top: 0.2rem;
 	margin-left: .1rem;
+}
+.wrap{
+	display: none;
 }
