@@ -17,11 +17,11 @@ p{font-size: .25rem;line-height: .38rem;color:#D49C73;animation: 1s 2.6s;-webkit
 	z-index:9;}
 .subBtn{position: absolute;top:2.8rem;left:0;text-align: center;width: 100%;font-size:0;animation:1s .5s;-webkit-animation: 1s .5s;animation-duration: 1s .5s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity: 0}
 .subBtn a{display: inline-block;height: .44rem;width: 2rem;border:1px solid #FFF;font-size:.3rem;line-height: .44rem;border-radius:6px;-webkit-border-radius:6px;color:#FFF;}
-.masklogo{position: absolute;bottom:4.5rem;left:0;width: 100%;text-align: center;height: 2rem;width: 2rem;width: 100%}
+.masklogo{position: absolute;top:3.5rem;left:0;width: 100%;text-align: center;height: 2rem;width: 2rem;width: 100%}
 img{height: 2rem;width: 2rem;animation:1s .5s;-webkit-animation: 1s .5s;animation-duration: 1s .5s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity: 0;}
 .support{position: absolute;bottom:.8rem;left:0;text-align: center;font-size:.26rem;color:#FFF;width: 100%;animation:1s 1s;-webkit-animation: 1s 1s;animation-duration: 1s 1s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity: 0;}
 .masktit span{font-weight: bold}
-.test{animation: 1s .8s;-webkit-animation:1s .8s;animation-duration: 1s .8s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity:0}
+.test{animation: 1s .8s;-webkit-animation:1s .8s;animation-duration: 1s .8s;-webkit-animation-fill-mode: both;animation-fill-mode: both;opacity:0;margin-top:8px;}
 #showNum{color:#FFD20A;}
 #zxb{
 	height: 1.65rem;
