@@ -19,5 +19,6 @@ $(function(){
     $(".subBtn a").click(function(){
         num++;
         $(".masktit span").html(num);
+        setTimeout(function(){window.location.href = "http://www.upshequ.com/download/dpl/phone.html";},1000);
     });
 });
